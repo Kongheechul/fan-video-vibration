@@ -1,0 +1,213 @@
+{
+  "capture_fps": 240,
+  "frame_size": [
+    1080,
+    1920
+  ],
+  "nperseg": 512,
+  "rois": [
+    {
+      "id": "head_upper",
+      "role": "target",
+      "shape": "annulus",
+      "center": [
+        521.6,
+        678.4
+      ],
+      "radii": [
+        320.0,
+        361.6
+      ],
+      "inner": 0.85,
+      "outer": 1.05,
+      "half": "upper"
+    },
+    {
+      "id": "head_lower",
+      "role": "target",
+      "shape": "annulus",
+      "center": [
+        521.6,
+        678.4
+      ],
+      "radii": [
+        320.0,
+        361.6
+      ],
+      "inner": 0.85,
+      "outer": 1.05,
+      "half": "lower"
+    },
+    {
+      "id": "joint",
+      "role": "target",
+      "shape": "polygon",
+      "points": [
+        [
+          492.8,
+          1001.6
+        ],
+        [
+          601.6,
+          979.2
+        ],
+        [
+          601.6,
+          1072.0
+        ],
+        [
+          480.0,
+          1088.0
+        ]
+      ]
+    },
+    {
+      "id": "leg_left_upper",
+      "role": "target",
+      "shape": "polygon",
+      "points": [
+        [
+          467.2,
+          1078.4
+        ],
+        [
+          531.2,
+          1104.0
+        ],
+        [
+          467.2,
+          1289.6
+        ],
+        [
+          400.0,
+          1270.4
+        ]
+      ]
+    },
+    {
+      "id": "leg_left_lower",
+      "role": "target",
+      "shape": "polygon",
+      "points": [
+        [
+          380.8,
+          1436.8
+        ],
+        [
+          448.0,
+          1452.8
+        ],
+        [
+          412.8,
+          1782.4
+        ],
+        [
+          345.6,
+          1782.4
+        ]
+      ]
+    },
+    {
+      "id": "leg_right_upper",
+      "role": "target",
+      "shape": "polygon",
+      "points": [
+        [
+          620.8,
+          1049.6
+        ],
+        [
+          675.2,
+          1027.2
+        ],
+        [
+          774.4,
+          1219.2
+        ],
+        [
+          713.6,
+          1260.8
+        ]
+      ]
+    },
+    {
+      "id": "leg_right_lower",
+      "role": "target",
+      "shape": "polygon",
+      "points": [
+        [
+          851.2,
+          1344.0
+        ],
+        [
+          905.6,
+          1324.8
+        ],
+        [
+          1024.0,
+          1497.6
+        ],
+        [
+          953.6,
+          1532.8
+        ]
+      ]
+    },
+    {
+      "id": "background_a",
+      "role": "background",
+      "shape": "polygon",
+      "points": [
+        [
+          54.4,
+          928.0
+        ],
+        [
+          416.0,
+          928.0
+        ],
+        [
+          409.6,
+          1196.8
+        ],
+        [
+          48.0,
+          1196.8
+        ]
+      ]
+    },
+    {
+      "id": "background_b",
+      "role": "background",
+      "shape": "polygon",
+      "points": [
+        [
+          656.0,
+          1532.8
+        ],
+        [
+          1056.0,
+          1532.8
+        ],
+        [
+          1056.0,
+          1884.8
+        ],
+        [
+          656.0,
+          1884.8
+        ]
+      ]
+    }
+  ],
+  "relative_pairs": [
+    [
+      "head_lower",
+      "joint"
+    ],
+    [
+      "joint",
+      "leg_left_upper"
+    ]
+  ]
+}

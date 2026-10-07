@@ -1,0 +1,63 @@
+{
+  "capture_fps": 179.82017982017982,
+  "frame_size": [
+    1920,
+    1080
+  ],
+  "nperseg": 512,
+  "rois": [
+    {
+      "id": "ring",
+      "role": "target",
+      "shape": "annulus",
+      "center": [
+        1120,
+        530
+      ],
+      "radii": [
+        295,
+        295
+      ],
+      "inner": 0.87,
+      "outer": 1.04
+    },
+    {
+      "id": "outer",
+      "role": "target",
+      "shape": "annulus",
+      "center": [
+        1120,
+        530
+      ],
+      "radii": [
+        295,
+        295
+      ],
+      "inner": 0.95,
+      "outer": 1.04
+    },
+    {
+      "id": "background_a",
+      "role": "background",
+      "shape": "rectangle",
+      "bounds": [
+        1470,
+        440,
+        240,
+        580
+      ]
+    },
+    {
+      "id": "background_b",
+      "role": "background",
+      "shape": "rectangle",
+      "bounds": [
+        725,
+        750,
+        100,
+        260
+      ]
+    }
+  ],
+  "relative_pairs": []
+}
